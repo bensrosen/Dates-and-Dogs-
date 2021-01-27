@@ -1,0 +1,66 @@
+body{
+  font-family: sans-serif;
+}
+
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: greenyellow;
+  
+  
+.user{
+  flex-basis: 50%;
+  position: relative;
+}
+.user img{
+  width: 300px;
+  height: 300px;
+  
+}
+.user p{
+  margin-bottom: 2em;
+ }
+
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+.image-bio-container{
+  display: flex;
+  /*background-color: rgb(8, 135, 142);
+}
+.image-bio-container img{
+  /* width: 300px; */
+  flex: 1.6;
+  height: auto;
+}
+.image-bio-container p{
+  display: inline-block;
+  flex: 2.8;
+  font-size: 1.8em;
+}
+
+
+.wag, .save{
+  padding: 12px 20px;
+  font-size: 1.3em;
+  margin-left:.5em;
+}
+.wag{
+  background-color: green;
+}
+.save{
+  background-color: red ;
+}
